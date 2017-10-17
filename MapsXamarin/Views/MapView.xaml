@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" x:Class="MapsXamarin.Views.MapView" xmlns:local="clr-namespace:MapsXamarin;assembly=MapsXamarin">
+    <StackLayout Orientation="Vertical">
+        <local:CustomMap x:Name="CustomMap" MapType="Street" WidthRequest="{x:Static local:App.ScreenWidth}" HeightRequest="{x:Static local:App.ScreenHeight}" />
+        <!--        <maps:Map x:Name="MapPet" MapType="Street" VerticalOptions="FillAndExpand" IsShowingUser="true" />-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnLocation" Grid.Column="0" Text="Minha localização" Command="{Binding GetLocationCommand}"/> <!--Clicked="BtnLocation_Clicked" -->
+        </Grid>
+    </StackLayout>
+</ContentPage>

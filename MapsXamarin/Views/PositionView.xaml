@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MapsXamarin.Views.PositionView"
+    xmlns:vm="MapsXamarin.ViewModels.PositionViewModel">
+    <ContentPage.BindingContext>
+        <vm:PositionViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout VerticalOptions="Center" Margin="0,25,0,0">
+        <Button Text="Localização" Command="{Binding GetPositionCommand}" BackgroundColor="#EEE" />
+        <Label Text="Latitude" FontSize="20" HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="LatitudeLabel" FontSize="30" HorizontalOptions="CenterAndExpand" Text="{Binding Latitude, Mode=TwoWay}"/>
+        <Label Text="Longitude" FontSize="20" HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="LongitudeLabel" FontSize="30" HorizontalOptions="CenterAndExpand" Text="{Binding Longitude, Mode=TwoWay}" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{1F0B888B-D192-4C4F-B2B4-5B8E56FD0C77}|Default">
+  <MonoDevelop.Ide.ItemProperties.MapsXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MapsXamarin.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MapsXamarin/Views/MapView.xaml.cs">
+    <Files>
+      <File FileName="MapsXamarin/Views/MapView.xaml.cs" Line="15" Column="16" />
+      <File FileName="MapsXamarin/Views/MapView.xaml" Line="11" Column="119" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MapsXamarin.Droid PreferredExecutionTarget="Android.Nexus_6P_API_24" />
+  <MultiItemStartupConfigurations />
+</Properties>
